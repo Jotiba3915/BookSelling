@@ -30,7 +30,7 @@ const App = () => {
         setAuthenicatedUser(null);
       }
     })
-  },[])
+  },[auth])
 
   useEffect(() =>{
     let total = 0;
