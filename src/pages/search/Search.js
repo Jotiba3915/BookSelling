@@ -17,7 +17,7 @@ const Search = () => {
         searchValue = BookData.filter((data) => data.book_name.toLowerCase().includes(location.state.toLowerCase()));
 
         setSearchResult(searchValue);
-    },[])
+    },[location.state])
 
     return (
     <section>
