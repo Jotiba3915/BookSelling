@@ -22,12 +22,14 @@
 .nav-links-container{
     display: flex;
     align-items: center;
+    
 }
 
 .cart-link{
     display: inline-block;
     padding-left: 20px;
     cursor: pointer;
+    color: #333;
 }
 
 .nav-links,.nav-links-dark{
