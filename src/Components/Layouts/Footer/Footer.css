@@ -1,0 +1,52 @@
+.footer-container{
+    background-color: #222;
+    padding: 5rem 5rem;
+    
+}
+
+.footer-container h2{
+    color: #fff;
+}
+
+.footer-container p{
+    color: #fff;
+    padding-top: 2rem;
+    font-size: 0.8rem;
+}
+
+.footer-form{
+    padding-top: 3rem;
+    width: 40%;
+}
+
+.form-group{
+    padding: 1rem 0;
+}
+
+.form-label{
+    display: inline-block;
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.form-input{
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-submit{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    background-color: var(--primary-color-bright);
+    padding:0.8rem 2rem;
+    transition: 0.2s ease-in;
+}
+
+.form-submit:hover{
+    background-color: #fff;
+    color: #333;
+}

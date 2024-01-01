@@ -1,0 +1,20 @@
+.product-listing-all-container{
+    padding-top: 8rem;
+    padding-bottom: 5rem;
+}
+
+img.product-listing-image {
+    height: 200px;
+    width: 180px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 5rem;
+}
+
+.grid-item{
+    display: flex;
+    justify-content: center;
+}
