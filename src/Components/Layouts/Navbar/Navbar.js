@@ -35,14 +35,17 @@ const Navbar = ({darkTheme, darkText}) => {
     <nav className='nav-links-container'>
       <Link to="/" className={`${darkText ? `nav-links-dark` : `nav-links`}`}>Home</Link>
       <Link to="/Books" className={`${darkText ? `nav-links-dark` : `nav-links`}`}>Books</Link>
-      <a onClick={handleLogout} className={`${darkText ? `nav-links-dark` : `nav-links`}`}>Logout</a>
+      <button onClick={handleLogout} className={`${darkText ? 'nav-links-dark' : 'nav-links'}`}>Logout</button>
+      
       <Link to="/cart" className="cart-link"><Cart/></Link>
     </nav>
   )
   return (
   <section className={ `navbar-container ${ darkTheme ? 'background-dark relative' : 'background-transparent'} ` }>
         <div className="Container flex justify-between align-center">
-            <a href="#" className="logo">Book<span className="text-primary">worm</span></a>
+            
+            <Link to="#" className="logo">Book<span className="text-primary">worm</span></Link>
+
 
            {user ? showLogoutAndCart : showLoginandSignUp }
         </div>
